@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check organization defaults
+        run: |
+          test -f profile/README.md
+          test -f SECURITY.md
+          test -f .github/PULL_REQUEST_TEMPLATE.md
       - name: Reject common secret forms
         shell: bash
         run: |
@@ -21,4 +26,3 @@ jobs:
             echo 'Possible secret found.'
             exit 1
           fi
-

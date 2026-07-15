@@ -1,9 +1,7 @@
-# Security policy
+# Security
 
-Please do not disclose a suspected vulnerability in a public issue. Send a
-description, affected URL or repository, reproduction steps, and potential
-impact to [security@mintshelf.com](mailto:security@mintshelf.com).
+Please do not report a security vulnerability in a public issue.
 
-We will acknowledge a complete report and coordinate remediation and disclosure
-with the reporter where appropriate.
-
+Email [security@mintshelf.com](mailto:security@mintshelf.com) with the affected
+service or repository, what you observed, and enough detail for us to reproduce
+it safely.
