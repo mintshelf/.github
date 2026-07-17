@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mintshelf/brand/main/assets/marks/mark-green.svg" width="96" alt="Mint Shelf" />
+  <img src="https://raw.githubusercontent.com/mintshelf/brand/next/assets/marks/mark-green.svg" width="96" alt="Mint Shelf" />
 </p>
 
 # Mint Shelf
