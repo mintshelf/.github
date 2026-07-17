@@ -3,7 +3,7 @@ name: Public repository safety
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [next]
 
 permissions:
   contents: read
