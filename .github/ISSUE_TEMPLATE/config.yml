@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Marketplace support
+    url: https://mintshelf.com/help
+    about: Get help with the Mint Shelf marketplace, an account, or an order.
+  - name: Security vulnerability
+    url: https://github.com/mintshelf/.github/security/policy
+    about: Review the private reporting instructions before sharing security details.
