@@ -13,9 +13,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: jdx/mise-action@v4
-        with:
-          version: 2026.6.12
-          cache: true
-          experimental: true
-      - run: mise run check
+      - name: Check public organization files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f profile/README.md
+          test -f SECURITY.md
+          test -f SUPPORT.md
+          test -f .github/ISSUE_TEMPLATE/config.yml
+          if grep -RIE \
+            '(BEGIN (RSA|OPENSSH|EC) PRIVATE KEY|ghp_[A-Za-z0-9]{20,}|sk_live_[A-Za-z0-9]+)' \
+            . --exclude-dir=.git; then
+            echo 'Possible secret found.'
+            exit 1
+          fi
