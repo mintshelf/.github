@@ -14,14 +14,12 @@ goods looking for their next buyer.
 
 ## Public resources
 
-- [`legal`](https://github.com/mintshelf/legal) contains the policies currently
-  published on mintshelf.com and their full history.
 - [`brand`](https://github.com/mintshelf/brand) contains approved marks, design
   tokens, and brand-use guidance.
 
-The marketplace, publishing system, content, and internal operations remain in
-private repositories. We will publish additional projects when doing so is
-useful and safe.
+The marketplace, policies, publishing system, content, and internal operations
+remain in private repositories. We will publish additional projects when doing
+so is useful and safe.
 
 Security reports should be sent privately to
 [security@mintshelf.com](mailto:security@mintshelf.com).
