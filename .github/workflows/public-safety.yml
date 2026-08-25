@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   scan:
-    runs-on: ubuntu-latest
+    runs-on: depot-ubuntu-24.04-2
     steps:
       - uses: actions/checkout@v7
       - name: Check public organization files
